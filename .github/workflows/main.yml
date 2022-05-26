@@ -28,5 +28,5 @@ jobs:
         run: pip install -r requirements.txt
         
       - name: Run flask
-        run: flask run
+        run: flask run &
         
